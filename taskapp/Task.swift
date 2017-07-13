@@ -15,6 +15,8 @@ class Task: Object{
     
     dynamic var contents = ""
     
+    dynamic var category = ""
+    
     dynamic var date = NSDate()
     
     override static func primaryKey() -> String? {
