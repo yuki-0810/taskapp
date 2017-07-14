@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.dataSource = self
         
         searchBar.delegate = self
+        print(taskArray)
     
     }
     
